@@ -1,0 +1,10 @@
+name: Test codes
+on:
+  workflow_dispatch:
+
+jobs:
+  Output context:
+    steps:
+      - name: Output custom message
+        run: echo "test message"
+        
